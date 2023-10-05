@@ -15,7 +15,7 @@ function loadQexoFriends(id, url) {
             try {
                 ajax = new ActiveXObject("Microsoft.XMLHTTP");
             } catch (e) {
-                alert("糟糕,你的浏览器不能上传文件！");
+                alert("浏览器版本太低");
                 return false;
             }
         }
@@ -50,7 +50,7 @@ function loadQexoFriends(id, url) {
                     console.log(res["data"]["msg"]);
                 }
             } else {
-                console.log("友链获取失败! 网络错误");
+                console.log("网络错误");
             }
         }
     };
