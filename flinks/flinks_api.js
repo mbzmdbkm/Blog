@@ -74,3 +74,37 @@ function friend_api() {
         ask()
     }
 }
+
+var checkbox1 = document.getElementById("checkbox1");
+var checkbox2 = document.getElementById("checkbox2");
+var checkbox3 = document.getElementById("checkbox3");
+var checkbox4 = document.getElementById("checkbox4");
+function checkAndExecuteScript() {
+    if (checkbox1.checked && checkbox2.checked && checkbox3.checked && checkbox4.checked) {
+        qexo_friend_api("friends-api", "https://admin-blog.xn--tiyy81g.eu.org", "");
+    }
+}
+checkbox1.addEventListener("change", function () {
+    if (checkbox1.checked) {
+        checkbox1.disabled = true;
+        checkAndExecuteScript();
+    }
+});
+checkbox2.addEventListener("change", function () {
+    if (checkbox2.checked) {
+        checkbox2.disabled = true;
+        checkAndExecuteScript();
+    }
+});
+checkbox3.addEventListener("change", function () {
+    if (checkbox3.checked) {
+        checkbox3.disabled = true;
+        checkAndExecuteScript();
+    }
+});
+checkbox4.addEventListener("change", function () {
+    if (checkbox4.checked) {
+        checkbox4.disabled = true;
+        checkAndExecuteScript();
+    }
+});

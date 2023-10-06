@@ -1,4 +1,4 @@
-function loadQexoFriends(id, url) {
+function loadQexoFriends(id, url, limit) {
     var uri = url + "/pub/friends/";
     var loadStyle = '<div class="qexo_loading"><div class="qexo_part"><div style="display: flex; justify-content: center"><div class="qexo_loader"><div class="qexo_inner one"></div><div class="qexo_inner two"></div><div class="qexo_inner three"></div></div></div></div></div>';
     document.getElementById(id).className = "qexo-friends";
@@ -56,3 +56,4 @@ function loadQexoFriends(id, url) {
     };
     ajax.send(null);
 }
+loadQexoFriends("qexo-friends", "https://admin-blog.xn--tiyy81g.eu.org");

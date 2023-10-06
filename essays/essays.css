@@ -128,9 +128,7 @@
 }
 .qexo_essays_css a {
     color: var(--primary-color);
-}
-.qexo_essays_css a :hover {
-    color: var(--default-text-color);
+    text-decoration: underline;
 }
 .qexo_essays_css table {
     border-collapse: collapse;
@@ -142,4 +140,15 @@
 .qexo_essays_css th {
     background-color: #8882;
     font-weight: bold;
+}
+.qexo_essays_css iframe {
+    width: 100% !important;
+    height: 400px !important;
+}
+.qexo_essays_css code {
+  background-color: #8883;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 10px;
+  display: block;
 }
