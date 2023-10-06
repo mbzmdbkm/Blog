@@ -144,4 +144,4 @@ function showQexoTalks(id, url) {
   };
   ajax.send(null);
 }
-showQexoTalks("qexot", "https://admin-blog.xn--tiyy81g.eu.org", 10);
+showQexoTalks("qexot", "https://blog-qexo-kappa.vercel.app", 10);
