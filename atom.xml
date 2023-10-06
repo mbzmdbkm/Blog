@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-06T07:03:19.969Z</updated>
+  <updated>2023-10-06T03:12:49.003Z</updated>
   <id>http://example.com/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
@@ -15,8 +15,8 @@
     <title>特有语法</title>
     <link href="http://example.com/posts/styles/"/>
     <id>http://example.com/posts/styles/</id>
-    <published>2023-10-06T07:03:19.969Z</published>
-    <updated>2023-10-06T07:03:19.969Z</updated>
+    <published>2023-10-04T00:35:56.168Z</published>
+    <updated>2023-10-06T03:12:49.003Z</updated>
     
     <content type="html"><![CDATA[<p>本文章主要介绍一些主题特有的语法。</p><h2 id="大号提示块"><a href="#大号提示块" class="headerlink" title="大号提示块"></a>大号提示块</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% notel 颜色 标题 %&#125;</span><br><span class="line">内容</span><br><span class="line">&#123;% endnotel %&#125;</span><br></pre></td></tr></table></figure></div><div class="note-large default"><div class="notel-title"><p>默认</p></div><div class="notel-content"><p>颜色：defalt<br>标题：默认</p></div></div><div class="note-large red"><div class="notel-title"><p>警告</p></div><div class="notel-content"><p>颜色：red<br>标题：警告</p></div></div><h2 id="小号提示块"><a href="#小号提示块" class="headerlink" title="小号提示块"></a>小号提示块</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note 样式 %&#125;</span><br><span class="line">内容</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note default"><p>样式：default</p></div><div class="note red"><p>样式：red</p></div><div class="note primary"><p>样式：primary</p></div><div class="note success"><p>样式：success</p></div><div class="note info"><p>样式：info</p></div><div class="note warning"><p>样式：warning</p></div><div class="note danger"><p>样式：danger</p></div><h2 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% btn 名称 %&#125;</span><br><span class="line">&#123;% btn 名称::地址 %&#125;</span><br><span class="line">&#123;% btn 大小::名称::地址 %&#125;</span><br></pre></td></tr></table></figure></div><div class="note info"><p>大小&#x3D;[“center”, “regular”, “large”, “center regular”, “center large”]</p></div><a class="button  regular" href='/' title='大小：regular'>大小：regular</a><a class="button  center" href='/' title='大小：center'>大小：center</a><a class="button  center large" href='/' title='大小：center large'>大小：center large</a><h2 id="折叠"><a href="#折叠" class="headerlink" title="折叠"></a>折叠</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% folding 颜色::标题 %&#125;</span><br><span class="line">内容</span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure></div><details class="red" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>红色 </summary>              <div class='content'>              <p>颜色：red<br>标题：红色</p>              </div>            </details>]]></content>
     
