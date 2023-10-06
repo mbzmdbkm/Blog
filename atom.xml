@@ -3,18 +3,18 @@
   <title></title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://blog-nine-gilt-22.vercel.app/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://blog-nine-gilt-22.vercel.app/"/>
   <updated>2023-10-06T03:12:49.003Z</updated>
-  <id>http://example.com/</id>
+  <id>https://blog-nine-gilt-22.vercel.app/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>特有语法</title>
-    <link href="http://example.com/posts/styles/"/>
-    <id>http://example.com/posts/styles/</id>
+    <link href="https://blog-nine-gilt-22.vercel.app/posts/styles/"/>
+    <id>https://blog-nine-gilt-22.vercel.app/posts/styles/</id>
     <published>2023-10-04T00:35:56.168Z</published>
     <updated>2023-10-06T03:12:49.003Z</updated>
     
@@ -25,14 +25,14 @@
     
     
     
-    <category term="测试" scheme="http://example.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://blog-nine-gilt-22.vercel.app/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-    <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
+    <category term="语法" scheme="https://blog-nine-gilt-22.vercel.app/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://blog-nine-gilt-22.vercel.app/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="介绍" scheme="http://example.com/tags/%E4%BB%8B%E7%BB%8D/"/>
+    <category term="介绍" scheme="https://blog-nine-gilt-22.vercel.app/tags/%E4%BB%8B%E7%BB%8D/"/>
     
   </entry>
   
