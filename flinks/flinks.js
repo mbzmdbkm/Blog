@@ -56,4 +56,4 @@ function loadQexoFriends(id, url, limit) {
     };
     ajax.send(null);
 }
-loadQexoFriends("qexo-friends", "https://admin-blog.xn--tiyy81g.eu.org");
+loadQexoFriends("qexo-friends", "https://blog-qexo-kappa.vercel.app");
