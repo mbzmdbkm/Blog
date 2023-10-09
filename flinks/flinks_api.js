@@ -81,7 +81,7 @@ var checkbox3 = document.getElementById("checkbox3");
 var checkbox4 = document.getElementById("checkbox4");
 function checkAndExecuteScript() {
     if (checkbox1.checked && checkbox2.checked && checkbox3.checked && checkbox4.checked) {
-        qexo_friend_api("friends-api", "https://blog-qexo-kappa.vercel.app", "6LfGMokoAAAAAD3Sdn-HMiseiVCw-49UpFSxdOd3");
+        qexo_friend_api("friends-api", "https://blog-qexo-kappa.vercel.app", "");
     }
 }
 checkbox1.addEventListener("change", function () {
